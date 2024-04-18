@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color:  #0f0;
+    background-color:  rgba(0, 255, 0, 0.279);
     border-radius: 6px;
     height: 150px;
     display: flex;
@@ -39,15 +39,31 @@ header {
 }
 
 main {
-    background-color: #92fbfb;
+    background-color: #1f363623;
     border-radius: 6px;
     height: 100%;
     width: 74%;
 }
 
 aside {
-    background-color: #939;
+    background-color: rgba(153, 51, 153, 0.331);
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: rgb(237, 97, 97);
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
 }
